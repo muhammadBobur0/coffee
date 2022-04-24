@@ -5,43 +5,100 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>coffe</title>
-  <link rel="stylesheet" href="./css/normalize.css">
+  <!--<link rel="stylesheet" href="./css/normalize.css">-->
   <link rel="stylesheet" href="./css/main.min.css">
-  <!-- <link rel="stylesheet" href="./css/main.css">-->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   
   <header class="header">
     <div class="container">
-      <div class="header-iner">
+      <div class="header__iner">
         <a href="./index.html"> <img src="./images/logo.svg" alt="site logo" width="235" height="24"> </a>
-        <nav class="nav-rigt">
-          <ul class="nav-rigt-list">
-            <li class="nav-rigt-list-item"> <a class="nav-rigt-list-link" href="#"> HOME </a> </li>
-            <li class="nav-rigt-list-item"> <a class="nav-rigt-list-link" href="#"> ABOUT US </a> </li>
-            <li class="nav-rigt-list-item"> <a class="nav-rigt-list-link" href="#"> Create your plan </a> </li>
+        <nav class="nav__rigt">
+          <ul class="nav__rigt__list">
+            <li class="nav__rigt__list__item"> <a class="nav__rigt__list-link" href="#"> HOME </a> </li>
+            <li class="nav__rigt__list__item"> <a class="nav__rigt__list-link" href="#"> ABOUT US </a> </li>
+            <li class="nav__rigt__list__item"> <a class="nav__rigt__list-link" href="#"> Create your plan </a> </li>
           </ul>
         </nav>
       </div>
-      
+    </div>
+  </header>
+  <main> 
+    <section > 
       <div class="hero"> 
-        <div class="hero-text"> 
-          <h1 class="top-text">
-            Good coffee 
-            is made simply.
-          </h1>
-          <p class="bottom-text">
-            Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
-          </p>
-          <button type="button" class="button-header"> Create your plan </button>
-        </div>
-        <div class="rigt-img"> 
-          <img  src="./images/backimg.png" alt="coffe" width="710" height="696">
-          <img class="rigt-img-top" src="./images/coffe.png" alt="coffe logo" width="160" height="160">
+        <div class="container"> 
+          <div class="hero__iner"> 
+            <div class="hero__text"> 
+              <h1 class="top__text">
+                Good coffee 
+                is made simply.
+              </h1>
+              <p class="bottom__text">
+                Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
+              </p>
+              <a class="button-header" href="#"> Create your plan </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>  
-  </header>
-  
-</body>
-</html>
+    </section>
+    <section class="section">
+      <div class="section__top">
+        <div class="container"> 
+            <h2 class="section__top__title">
+              our collection
+            </h2>
+          <div class="section__top__item">
+            <img src="./images/danche.png" alt="coffe paket danche" width="450" height="375">
+            <div class="section__top__item__titile">
+              <h3 class="section__top__item__text__top">
+                Danche
+              </h3>
+              <p class="section__top__item__text__bottom">
+                Ethiopian hand-harvested blend densely packed with vibrant fruit notes.                
+              </p>
+            </div>
+          </div>
+          
+          <div class="section__top__item">
+            <img src="./images/gran.png" alt="coffe paket danche" width="450" height="375">
+            <div class="section__top__item__titile  section__top__item__titile--active">
+              <h3 class="section__top__item__text__top">
+                Gran Espresso
+              </h3>
+              <p class="section__top__item__text__bottom">
+                Light and flavorful blend with cocoa and black pepper for an intense experience.  </p>
+              </div>
+            </div>
+            
+            <div class="section__top__item">
+              <img src="./images/piccolo.png" alt="coffe paket danche" width="450" height="375">
+              <div class="section__top__item__titile">
+                <h3 class="section__top__item__text__top">
+                  Piccollo
+                </h3>
+                <p class="section__top__item__text__bottom">
+                  Mild and smooth blend featuring notes of toasted almond and dried cherry.   </p>
+                </div>
+              </div>
+              
+              <div class="section__top__item">
+                <img src="./images/planto.png" alt="coffe paket danche" width="450" height="375">
+                <div class="section__top__item__titile  section__top__item__titile--active">
+                  <h3 class="section__top__item__text__top">
+                    Planalto
+                  </h3>
+                  <p class="section__top__item__text__bottom">
+                    Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.  </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>      
+          </section>
+          
+        </main>
+      </body>
+      </html>
