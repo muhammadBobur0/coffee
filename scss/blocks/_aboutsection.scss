@@ -1,0 +1,75 @@
+.aboutsection {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 160px;
+  
+  &::before {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 910px);
+    width: 402px;
+    height: 302px;
+    background-image: url(../images/cestop.png);
+    background-repeat: no-repeat;
+    background-size: 402px 302px;    
+    content: "";
+  }
+}
+
+.aboutsection__top {
+  background-blend-mode: overlay;
+  text-align: center;
+  background-color: #F5F5EC;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.aboutsectioniner {
+  display: flex;
+  align-items: center;
+  padding-top: 160px;
+  padding-right: 64px;
+  padding-bottom: 216px;
+  padding-left: 160px;
+}
+
+.aboutsectioniner > img {
+  margin-right: 180px;
+}
+
+.aboutsectioniner > .aboutiner > .section__top__title {
+  margin-bottom: 24px;
+}
+
+.aboutsectioniner > .aboutiner > p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;  
+  line-height: 30px;
+}
+
+
+
+.aboutiner {
+  width: 626px;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .aboutsection::before {
+    background-image: url(../images/cestop@2x.png);
+  }
+  
+} 

@@ -1,0 +1,85 @@
+
+.hero {
+  position: relative;
+  background-color: #F1D2B0;
+  background-image: url(../images/backimg.png), url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: contain, 100%;
+  background-position: calc(50% + 416px), center center ;
+  background-blend-mode: normal, overlay;
+  padding: 116px 0 249px ;
+  
+}
+
+.hero::before {
+  position: absolute;
+  top: calc(-9%);
+  left: calc(50% + 5px);
+  display: block;
+  width: 160px;
+  height: 160px;
+  background-image: url(../images/coffe.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+  content: "";
+}
+
+
+.hero__iner {
+  padding-left: 100px;
+}
+
+.hero__text {
+  margin: 0;
+  width: 464px;
+  
+}
+
+.top__text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  
+}
+
+.bottom__text {
+  margin: 0;
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button-header {
+  display: inline-block;
+  padding: 16px 24px;
+  background-color: #0A775F;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+.hero {
+  background-image: url(../images/backimg@2x.png);
+
+}
+
+.hero::before {
+  background-image: url(../images/coffe@2x.png);
+
+}
+} 

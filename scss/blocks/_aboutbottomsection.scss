@@ -1,0 +1,72 @@
+.aboutHow__it__works__iner__list__item {
+  position: relative;
+  margin-right: 20px;
+  padding-top: 140px;
+  padding-right: 182px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  background-color: #fff;
+  text-align: left;
+  &::before {
+    position: absolute;
+    width: 120px;
+    height: 143px;
+    top: 10px;
+    right: 10px;
+    background-image: url(../images/united.svg);
+    background-repeat: no-repeat;
+    content: "";
+  }
+}
+
+.aboutHow__it__works__iner__list__item > div > .How__it__works__iner__list__item__titele  {
+  font-size: 40px;
+  line-height: 47px;
+}
+
+
+.aboutHow__it__works__iner__list__item:nth-child(2) {
+  padding-top: 187px;
+}
+
+.aboutHow__it__works__iner__list__item:nth-child(3) {
+  padding-top: 187px;
+}
+
+.aboutHow__it__works__iner__list__item:nth-child(2)::before {
+  background-image: url(../images/canada.svg);
+}
+
+.aboutHow__it__works__iner__list__item:nth-child(3)::before {
+  background-image: url(../images/aust.svg);
+}
+
+.aboutHow__it__works__iner__list__item > div {
+  width: 231px;
+}
+
+.How__it__works__iner__list {
+  margin: 0;
+}
+
+.How__it__works__iner__span__titele {
+  margin-bottom: 10px;
+}
+
+.aboutHow__it__works__iner {
+  background-blend-mode: overlay;
+  text-align: center;
+  background-color: #086853;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 30px;
+}
+
+.How__it__works__iner__list {
+  padding: 0;
+}
+
+.How__it__works {
+  margin-bottom: 50px;
+}

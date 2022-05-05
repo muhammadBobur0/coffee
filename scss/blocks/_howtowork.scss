@@ -1,0 +1,155 @@
+
+.How__it__works {
+  padding: 20px;
+  background-color: #fff;
+  
+}
+.How__it__works__iner {
+  position: relative;
+  background-blend-mode: overlay;
+  text-align: center;
+  background-color: #086853;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 30px;
+}
+
+.How__it__works__iner::before {
+  position: absolute;
+  top: calc(50% - 250px);
+  right: calc(50% - 650px);
+  width: 129px;
+  height: 130px;
+  background-image: url(../images/but.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: ""
+  
+}
+
+
+.How__it__works__iner__titele {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 80px; 
+  line-height: 59px;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.How__it__works__iner__list {
+  list-style-type: none;
+  display: flex;
+}
+.How__it__works__iner__list__item {
+  position: relative;
+  margin-right: 20px;
+  padding-top: 140px;
+  padding-right: 28px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.How__it__works__iner__list__item__titele {
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 47px;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.How__it__works__iner__list__item__text {
+  margin: 0;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.How__it__works__iner__list__item:nth-child(1):after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 65px;
+  height: 75px;
+  background-image: url(../../images/left.svg);
+  background-repeat: no-repeat;
+  content: "";
+  
+}
+
+.How__it__works__iner__list__item:nth-child(2):after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 65px;
+  height: 75px;
+  background-image: url(../../images/center.svg);
+  background-repeat: no-repeat;
+  content: "";
+  
+}
+
+.How__it__works__iner__list__item:nth-child(3):after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 65px;
+  height: 75px;
+  background-image: url(../../images/coffeleft.svg);
+  background-repeat: no-repeat;
+  content: "";
+  
+}
+
+.How__it__works__iner__span {
+  text-align: left;
+  background-image: url(../images/first.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 155px) calc(50%);
+  display: flex;
+}
+.How__it__works__iner__span__titele:nth-child(2) {
+  margin-left: 0;
+}
+
+.How__it__works__iner__span__titele:nth-child(3) {
+  margin-left: 0;
+  margin-left: 0;
+}
+
+.How__it__works__iner__span__titele {
+  display: inline-block;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #030303;
+  margin-left: 40px;
+  margin-right: 373px;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .How__it__works__iner::before {
+    background-image: url(../../images/but@2x.png);
+
+  }
+
+  .How__it__works__iner__span {
+    background-image: url(../images/first@2x.png);
+
+  }
+
+
+} 

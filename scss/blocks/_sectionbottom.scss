@@ -1,0 +1,116 @@
+
+.section__bottom {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+
+.section__bottom__iner {
+  position: relative;
+  background-color: #C4915D;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 500px;
+  margin-bottom: 289px;
+}
+
+.section__bottom__iner__titele {
+  width: 581px;
+  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.section__bottom__iner__titele__top {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.section__bottom__iner__titele__bottom {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+
+.section__bottom__iner__list {
+  position: absolute;
+  top: 360px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: left;
+}
+
+.section__bottom__iner__list::before {
+  position: absolute;
+  top: calc(50% - 367px);
+  left: calc(50% - 715px);
+  width: 129px;
+  height: 136px;
+  background-image: url(../images/cofe.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+
+
+.section__bottom__iner__list__item {
+  margin-right: 20px;
+}
+
+.section__bottom__iner__list__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.section__bottom__iner__list__item > img {
+  margin-bottom: 28px;
+}
+
+.section__bottom__iner__list__item__box {
+  width: 377px;
+}
+
+
+.section__bottom__iner__list__item__titele {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.section__bottom__iner__list__item__text {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .section__bottom__iner__list::before {
+    background-image: url(../../images/cofe@2x.png);
+  }
+} 

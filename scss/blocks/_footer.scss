@@ -1,0 +1,25 @@
+
+
+.footer {
+  background-color: #F2D3B0;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 50px 60px;
+}
+
+.footer__iner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__iner__link > a {
+  margin-right: 30px;
+}
+
+.footer__iner__link > a:nth-child(3) {
+  margin-right: 0;
+}

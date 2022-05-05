@@ -1,0 +1,64 @@
+
+
+
+.aboutsection__bottom__iner {
+  position: relative;
+  background-color: #C4915D;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 118px;
+  margin-bottom: 20px;
+}
+
+.about::before {
+  position: absolute;
+  top: calc(50% - 356px);
+  right: calc(50% - 670px);
+  width: 550px;
+  height: 500px;
+  background-image: url(../images/right.png);
+  background-size: 550px 500px;
+  content: "";
+}
+
+
+
+
+.aboutsection__bottom__iner__titele {
+  width: 693px;
+}
+.aboutsection__bottom__iner__titele__top {
+  color: #fff;
+  font-size: 50px;
+  line-height: 59px;
+  margin: 0;
+  margin-bottom: 24px;
+  
+}
+.aboutsection__bottom__iner__titele__bottom {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.aboutimg {
+  position: relative;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .about::before {
+    background-image: url(../images/right@2x.png);
+
+  }
+
+} 

@@ -1,0 +1,44 @@
+.abouthero {
+  position: relative;
+  background-color: #F1D2B0;
+  background-image: url(../images/about.png), url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 710px 596px, 100%;
+  background-position: calc(50% + 416px), center center ;
+  background-blend-mode: normal, overlay;
+  padding: 116px 0 253px ;  
+  
+}
+
+.abouthero::before {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: calc(50% - 360px);
+  right: calc(50% - 150px);
+  background-image: url(../images/coffe.png);
+  background-repeat: no-repeat;
+  background-size: 160px 160px;
+  content: "";
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .abouthero {
+
+    background-image: url(../images/about@2x.png);
+    &::before {
+      background-image: url(../images/coffe@2x.png);
+
+    }
+  }
+
+
+
+} 

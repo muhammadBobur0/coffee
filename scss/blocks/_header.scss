@@ -1,0 +1,39 @@
+
+.header {
+  background-color: #F1D2B0;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-blend-mode: overlay;
+  
+}
+
+.header__iner{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.nav__rigt {
+  margin: 0;
+  margin-left: auto;
+}
+
+.nav__rigt__list {
+  list-style: none;
+  display: flex;
+  
+}
+
+.nav__rigt__list__item {
+  margin-right: 40px;
+}
+
+.nav__rigt__list-link {
+  text-decoration: none;
+  color: #030303;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
