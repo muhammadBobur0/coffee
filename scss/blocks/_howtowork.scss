@@ -75,7 +75,7 @@
   right: 20px;
   width: 65px;
   height: 75px;
-  background-image: url(../../images/left.svg);
+  background-image: url(../images/left.svg);
   background-repeat: no-repeat;
   content: "";
   
@@ -87,7 +87,7 @@
   right: 20px;
   width: 65px;
   height: 75px;
-  background-image: url(../../images/center.svg);
+  background-image: url(../images/center.svg);
   background-repeat: no-repeat;
   content: "";
   
@@ -99,7 +99,7 @@
   right: 20px;
   width: 65px;
   height: 75px;
-  background-image: url(../../images/coffeleft.svg);
+  background-image: url(../images/coffeleft.svg);
   background-repeat: no-repeat;
   content: "";
   
@@ -142,7 +142,7 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
   .How__it__works__iner::before {
-    background-image: url(../../images/but@2x.png);
+    background-image: url(../images/but@2x.png);
 
   }
 
