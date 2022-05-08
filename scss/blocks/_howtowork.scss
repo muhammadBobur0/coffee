@@ -105,12 +105,23 @@
   
 }
 
+
+.How__it__works:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.How__it__works:nth-child(2) > .How__it__works__iner::before {
+  background-image: none;
+}
+
 .How__it__works__iner__span {
   text-align: left;
   background-image: url(../images/first.png);
   background-repeat: no-repeat;
-  background-position: calc(50% - 155px) calc(50%);
+  background-position: calc(50% - 217px) calc(50%);
+  background-size:  910px;
   display: flex;
+  justify-content: space-between;
 }
 .How__it__works__iner__span__titele:nth-child(2) {
   margin-left: 0;
@@ -118,7 +129,7 @@
 
 .How__it__works__iner__span__titele:nth-child(3) {
   margin-left: 0;
-  margin-left: 0;
+  
 }
 
 .How__it__works__iner__span__titele {
@@ -127,8 +138,7 @@
   width: 60px;
   height: 60px;
   border: 1px solid #030303;
-  margin-left: 40px;
-  margin-right: 373px;
+  margin-right: 387px;
 }
 
 
@@ -143,13 +153,13 @@ only screen and (                min-resolution: 2dppx) {
   
   .How__it__works__iner::before {
     background-image: url(../images/but@2x.png);
-
+    
   }
-
+  
   .How__it__works__iner__span {
     background-image: url(../images/first@2x.png);
-
+    
   }
-
-
+  
+  
 } 

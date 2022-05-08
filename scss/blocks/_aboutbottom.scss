@@ -24,9 +24,6 @@
   content: "";
 }
 
-
-
-
 .aboutsection__bottom__iner__titele {
   width: 693px;
 }
@@ -55,7 +52,10 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
-  
+  .aboutsection__bottom__iner {
+    background-image: url(../../images/Rectangle@2x.png);
+  }
+
   .about::before {
     background-image: url(../images/right@2x.png);
 

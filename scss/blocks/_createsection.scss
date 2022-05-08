@@ -1,0 +1,242 @@
+.creatsection {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  &::before {
+    position: absolute;
+    top: calc(50% - 335px);
+    left: calc(50% - 995px);
+    width: 400px;
+    height: 300px;
+    background-image: url(../images/cestop.png);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    content: "";
+  }
+  
+  &::after {
+    position: absolute;
+    top: calc(50% - 845px);
+    left: calc(50% + 620px);
+    width: 393px;
+    height: 477px;
+    background-image: url(../images/seccen.png);
+    background-repeat: no-repeat;
+    background-size: 393px 477px;
+    content: "";
+  }
+  
+}
+.creatsection__top {
+  background-blend-mode: overlay;
+  text-align: center;
+  background-color: #F5F5EC;
+  background-image: url(../images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  &::after {
+    position: absolute;
+    top: calc(50% + 450px);
+    left: calc(50% - 1035px);
+    width: 316px;
+    height: 269px;
+    background-image: url(../images/secbot.png);
+    background-repeat: no-repeat;
+    background-size: 316px 269px;
+    content: "";
+  }
+}
+
+
+
+.createsectioniner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.creatright {
+  position: relative;
+  width: 202px;
+  margin-bottom: auto;
+  
+}
+
+.creatlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.creatlist > li {
+  margin-bottom: 35px;
+}
+
+.creatlist > li:nth-child(4) {
+  margin-bottom: 0px;
+}
+
+.creatlistlink:hover {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  border-bottom: 3px dashed #C99B67;
+}
+
+
+.creatlistlink {
+  text-decoration: none; 
+  margin-bottom: 35px;
+  color: #000;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.creatlistlink:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.creatinertittle {
+  display: inline-block;
+  margin: 0;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.creatinertittle:nth-child(2) {
+  margin-right: 75px;
+}
+
+.creatiner {
+  width: 660px; 
+  margin-left: auto;
+}
+
+.creainerbox {
+  position: relative;
+  text-align: left;
+  margin-bottom: 60px;
+  
+}
+
+.buttonmenu {
+  position: absolute;
+  top: 20px;
+  width: 12px;
+  height: 11px;
+  border: none;
+  background-image: url(../images/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+
+.buttonmenucheck {
+  display: flex;
+  justify-content: space-around; 
+}
+
+
+.labelcreat {
+  width: 208px;
+  max-height: 220px;
+  overflow: hidden;
+  
+}
+
+.createspan {
+  display: inline-block;
+  background-color: #C6DCD0;
+  text-align: left;
+  width: 180px;
+  padding-top: 30px;
+  padding-right: 32px;
+  padding-bottom: 56px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.labelcreat > input:checked ~ .createspan {
+  background-color: #0A775F;
+  color: #fff;
+}
+
+
+.createspan:hover {
+  background-color: #0A775F;
+  color: #fff;
+}
+
+
+.createspan > strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 21px;
+  line-height: 28px;
+}
+
+
+
+.creat__box__bottom {
+  padding: 40px 20px;
+  background-color: #C99B67;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+
+.creat__box__bottom:hover {
+  background-color: #F5F5EC;
+  color: #C99B67;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
+.creat__box__botom__titele {
+  color: #000;
+}
+
+
+.creat__box__bottom:hover > span > .creat__box__botom__titele {
+  color: #d3d3d3;
+}
+
+
+
+.create__button {
+  display: block;
+  margin-left: auto;
+  align-items: center;
+  padding: 16px 24px;
+  background: #0A775F;
+  border-radius: 100px;
+  color: #fff;
+  border: 0px;
+}
+
+
+.box__content--open {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.create__button:hover {
+  background-color: #008000;
+}
+
+
