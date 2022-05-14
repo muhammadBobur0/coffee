@@ -1,21 +1,58 @@
 
 
+.main__section__bottom {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
 
-.aboutsection__bottom__iner {
+
+.main__about__section____bottom__iner {
   position: relative;
   background-color: #C4915D;
   background-image: url(../images/Rectangle.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 118px;
-  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  margin-bottom: 289px;
+  background-blend-mode: overlay;
 }
+
+.main__about__section____bottom__iner__titele {
+  width: 581px;
+  margin-bottom: 80px;
+  margin-right: auto;
+}
+
+
+
+.main__about__section____bottom__iner__titele__top {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: left;
+
+}
+
+.main__about__section____bottom__iner__titele__bottom {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  text-align: left;
+}
+
+
 
 .about::before {
   position: absolute;
-  top: calc(50% - 356px);
+  top: calc(50% - 330px);
   right: calc(50% - 670px);
   width: 550px;
   height: 500px;
@@ -24,26 +61,6 @@
   content: "";
 }
 
-.aboutsection__bottom__iner__titele {
-  width: 693px;
-}
-.aboutsection__bottom__iner__titele__top {
-  color: #fff;
-  font-size: 50px;
-  line-height: 59px;
-  margin: 0;
-  margin-bottom: 24px;
-  
-}
-.aboutsection__bottom__iner__titele__bottom {
-  color: #fff;
-  margin: 0;
-  font-size: 18px;
-  line-height: 30px;
-}
-.aboutimg {
-  position: relative;
-}
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -53,7 +70,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   .aboutsection__bottom__iner {
-    background-image: url(../../images/Rectangle@2x.png);
+    background-image: url(../images/Rectangle@2x.png);
   }
 
   .about::before {

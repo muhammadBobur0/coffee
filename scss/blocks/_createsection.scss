@@ -1,4 +1,4 @@
-.creatsection {
+.main__creat__section {
   position: relative;
   padding: 20px;
   background-color: #fff;
@@ -53,35 +53,35 @@
 
 
 
-.createsectioniner {
+.main__creat__section__iner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   
 }
-.creatright {
+.main__creat__section__iner__right {
   position: relative;
   width: 202px;
   margin-bottom: auto;
   
 }
 
-.creatlist {
+.main__creat__section__iner__right__list {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: left;
 }
 
-.creatlist > li {
+.main__creat__section__iner__right__list > li {
   margin-bottom: 35px;
 }
 
-.creatlist > li:nth-child(4) {
+.main__creat__section__iner__right__list > li:nth-child(4) {
   margin-bottom: 0px;
 }
 
-.creatlistlink:hover {
+.main__creat__section__iner__right__listlink:hover {
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
@@ -89,7 +89,7 @@
 }
 
 
-.creatlistlink {
+.main__creat__section__iner__right__listlink {
   text-decoration: none; 
   margin-bottom: 35px;
   color: #000;
@@ -98,11 +98,11 @@
   line-height: 33px;
 }
 
-.creatlistlink:nth-child(4) {
+.main__creat__section__iner__right__listlink:nth-child(4) {
   margin-bottom: 0;
 }
 
-.creatinertittle {
+.main__creat__section__iner__box__tittle {
   display: inline-block;
   margin: 0;
   margin-right: 70px;
@@ -113,23 +113,23 @@
   line-height: 47px;
 }
 
-.creatinertittle:nth-child(2) {
+.main__creat__section__iner__box__tittle:nth-child(2) {
   margin-right: 75px;
 }
 
-.creatiner {
+.main__creat__section__iner__box {
   width: 660px; 
   margin-left: auto;
 }
 
-.creainerbox {
+.main__creat__section__iner__box__iteam {
   position: relative;
   text-align: left;
   margin-bottom: 60px;
   
 }
 
-.buttonmenu {
+.main__creat__section__iner__box__iteam__button {
   position: absolute;
   top: 20px;
   width: 12px;
@@ -142,24 +142,24 @@
 }
 
 
-.buttonmenucheck {
+.main__creat__section__iner__box__iteam__buttoncheck {
   display: flex;
   justify-content: space-around; 
 }
 
 
-.labelcreat {
+.main__creat__section__iner__box__iteam__buttoncheck__label__creat {
   width: 208px;
   max-height: 220px;
-  overflow: hidden;
+  height: 100%;
+  overflow-y: hidden;
   
 }
 
-.createspan {
+.main__creat__section__iner__box__iteam__buttoncheck__label__creat__creat__span {
   display: inline-block;
   background-color: #C6DCD0;
   text-align: left;
-  width: 180px;
   padding-top: 30px;
   padding-right: 32px;
   padding-bottom: 56px;
@@ -169,19 +169,14 @@
   line-height: 24px;
 }
 
-.labelcreat > input:checked ~ .createspan {
+.main__creat__section__iner__box__iteam__buttoncheck__label__creat > input:checked ~ .main__creat__section__iner__box__iteam__buttoncheck__label__creat__creat__span {
   background-color: #0A775F;
   color: #fff;
 }
 
 
-.createspan:hover {
-  background-color: #0A775F;
-  color: #fff;
-}
 
-
-.createspan > strong {
+.main__creat__section__iner__box__iteam__buttoncheck__label__creat__creat__span > strong {
   display: block;
   margin-bottom: 10px;
   font-size: 21px;
@@ -190,7 +185,7 @@
 
 
 
-.creat__box__bottom {
+.main__creat__section__iner__box__bottom {
   padding: 40px 20px;
   background-color: #C99B67;
   color: #fff;
@@ -200,24 +195,17 @@
   margin-bottom: 20px;
 }
 
-.creat__box__bottom:hover {
-  background-color: #F5F5EC;
-  color: #C99B67;
-  box-shadow: 2px 2px 2px 2px #000;
-}
 
-.creat__box__botom__titele {
+
+.main__creat__section__iner__box__bottom__titele {
   color: #000;
 }
 
 
-.creat__box__bottom:hover > span > .creat__box__botom__titele {
-  color: #d3d3d3;
-}
 
 
 
-.create__button {
+.form-button {
   display: block;
   margin-left: auto;
   align-items: center;
@@ -232,11 +220,6 @@
 .box__content--open {
   display: flex;
   justify-content: space-around;
-}
-
-
-.create__button:hover {
-  background-color: #008000;
 }
 
 

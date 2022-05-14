@@ -1,52 +1,48 @@
-.aboutsection {
-  position: relative;
+.main__about__section {
   padding: 20px;
-  background-color: #fff;
-  margin-bottom: 160px;
-  
-  &::before {
-    position: absolute;
-    top: 200px;
-    left: calc(50% - 910px);
-    width: 402px;
-    height: 302px;
-    background-image: url(../images/cestop.png);
-    background-repeat: no-repeat;
-    background-size: 402px 302px;    
-    content: "";
-  }
+  margin-bottom: 160px; 
 }
 
-.aboutsection__top {
-  background-blend-mode: overlay;
+
+
+.main__about__section___top {
   text-align: center;
   background-color: #F5F5EC;
-  background-image: url(../images/Rectangle.png);
+  background-image: url(../images/cestop.png), url(../images/Rectangle.png) ;
   background-repeat: no-repeat;
-  background-size: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-size: 402px 302px, 100%;
+  background-position: calc(50% - 705px) calc(50% - 170px), center;
+  background-blend-mode: normal, overlay;
 }
 
 
-.aboutsectioniner {
+.main__about__section__iner {
   display: flex;
   align-items: center;
   padding-top: 160px;
   padding-right: 64px;
   padding-bottom: 216px;
   padding-left: 160px;
+  
+  &::before {
+    width: 360px;
+    height: 364px;
+    margin-right: 125px;
+    background-image: url(../images/gre.png);
+    background-repeat: no-repeat;
+    background-size: 360px 364px;
+    content: "";
+  }
 }
 
-.aboutsectioniner > img {
-  margin-right: 180px;
-}
 
-.aboutsectioniner > .aboutiner > .section__top__title {
+
+
+.main__about__section__iner > .aboutiner > .section__top__title {
   margin-bottom: 24px;
 }
 
-.aboutsectioniner > .aboutiner > p {
+.main__about__section__iner > .aboutiner > p {
   margin: 0;
   font-weight: 400;
   font-size: 18px;  
@@ -55,8 +51,25 @@
 
 
 
-.aboutiner {
-  width: 626px;
+.main__about__section__iner__item {
+  width: 626px;  
+}
+
+.main__about__section__iner__item__top__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.main__about__section__iner__item__top__title ~ p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
 }
 
 
@@ -69,8 +82,18 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
-  .aboutsection::before {
+  .main__about__section__::before {
     background-image: url(../images/cestop@2x.png);
   }
   
+
+  .main__about__section__iner {
+    
+    &::before {
+      background-image: url(../images/gre@2x.png);
+    
+    }
+  }
+  
+
 } 

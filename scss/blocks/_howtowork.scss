@@ -1,10 +1,10 @@
 
-.How__it__works {
+.main__main__How__it__works {
   padding: 20px;
   background-color: #fff;
   
 }
-.How__it__works__iner {
+.main__How__it__works__iner {
   position: relative;
   background-blend-mode: overlay;
   text-align: center;
@@ -15,7 +15,7 @@
   padding: 50px 30px;
 }
 
-.How__it__works__iner::before {
+.main__How__it__works__iner::before {
   position: absolute;
   top: calc(50% - 250px);
   right: calc(50% - 650px);
@@ -29,7 +29,18 @@
 }
 
 
-.How__it__works__iner__titele {
+.main__How__it__works__iner:last-child::before {
+  position: absolute;
+  top: calc(50% - 250px);
+  right: calc(50% - 650px);
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: ""
+}
+
+
+.main__How__it__works__iner__titele {
   color: #fff;
   margin: 0;
   margin-bottom: 80px; 
@@ -38,11 +49,13 @@
   font-size: 50px;
 }
 
-.How__it__works__iner__list {
+.main__How__it__works__iner__list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
 }
-.How__it__works__iner__list__item {
+.main__How__it__works__iner__list__item {
   position: relative;
   margin-right: 20px;
   padding-top: 140px;
@@ -53,7 +66,7 @@
   text-align: left;
 }
 
-.How__it__works__iner__list__item__titele {
+.main__How__it__works__iner__list__item__titele {
   margin: 0;
   margin-bottom: 10px;
   line-height: 47px;
@@ -61,7 +74,7 @@
   font-size: 40px;
 }
 
-.How__it__works__iner__list__item__text {
+.main__How__it__works__iner__list__item__text {
   margin: 0;
   line-height: 28px;
   font-weight: 400;
@@ -69,7 +82,7 @@
 }
 
 
-.How__it__works__iner__list__item:nth-child(1):after {
+.main__How__it__works__iner__list__item:nth-child(1):after {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -81,7 +94,7 @@
   
 }
 
-.How__it__works__iner__list__item:nth-child(2):after {
+.main__How__it__works__iner__list__item:nth-child(2):after {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -93,7 +106,7 @@
   
 }
 
-.How__it__works__iner__list__item:nth-child(3):after {
+.main__How__it__works__iner__list__item:nth-child(3):after {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -106,33 +119,35 @@
 }
 
 
-.How__it__works:nth-child(2) {
+.main__How__it__works:nth-child(2) {
   margin-bottom: 0;
 }
 
-.How__it__works:nth-child(2) > .How__it__works__iner::before {
+.main__How__it__works:nth-child(2) > .main__How__it__works__iner::before {
   background-image: none;
 }
 
-.How__it__works__iner__span {
+.main__How__it__works__iner__span {
   text-align: left;
+  width: 1340px;
   background-image: url(../images/first.png);
   background-repeat: no-repeat;
   background-position: calc(50% - 217px) calc(50%);
   background-size:  910px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
-.How__it__works__iner__span__titele:nth-child(2) {
+.main__How__it__works__iner__span__titele:nth-child(2) {
   margin-left: 0;
 }
 
-.How__it__works__iner__span__titele:nth-child(3) {
+.main__How__it__works__iner__span__titele:nth-child(3) {
   margin-left: 0;
   
 }
 
-.How__it__works__iner__span__titele {
+.main__How__it__works__iner__span__titele {
   display: inline-block;
   background-color: #fff;
   width: 60px;
@@ -151,12 +166,12 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
-  .How__it__works__iner::before {
+  .main__How__it__works__iner::before {
     background-image: url(../images/but@2x.png);
     
   }
   
-  .How__it__works__iner__span {
+  .main__How__it__works__iner__span {
     background-image: url(../images/first@2x.png);
     
   }

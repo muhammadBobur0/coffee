@@ -1,4 +1,4 @@
-.abouthero {
+.main__about__hero {
   position: relative;
   background-color: #F1D2B0;
   background-image: url(../images/about.png), url(../images/Rectangle.png);
@@ -12,7 +12,7 @@
 
 
 
-.abouthero::before {
+.main__about__hero::before {
   position: absolute;
   width: 160px;
   height: 160px;
@@ -24,6 +24,27 @@
   content: "";
 }
 
+
+.main__about__hero__text {
+  margin: 0;
+  width: 464px;
+}
+.main__about__top__text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+}
+.main__about__bottom__text {
+  margin: 0;
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -32,7 +53,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
-  .abouthero {
+  .about__hero {
 
     background-image: url(../images/about@2x.png);
     &::before {

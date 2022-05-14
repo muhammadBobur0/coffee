@@ -7,7 +7,8 @@
   background-size: 100%;
   margin: 0;
   padding: 0;
-  padding: 50px 60px;
+  padding: 65px 0px;
+  background-blend-mode: overlay;
 }
 
 .footer__iner {
@@ -21,5 +22,30 @@
 }
 
 .footer__iner__link > a:nth-child(3) {
+  margin-right: 0;
+}
+
+
+.footer__menu__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.footer__menu__list__item {
+  margin-right: 40px;
+}
+.footer__menu__list-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;  
+  letter-spacing: 1px;
+  text-transform: uppercase;  
+  color: #333333;  
+}
+
+.footer__menu__list__item:last-child {
   margin-right: 0;
 }
